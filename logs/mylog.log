@@ -1,0 +1,5 @@
+[INFO ] 2024-02-17 20:46:55.628 [main] StepDef - url is opened
+[INFO ] 2024-02-17 20:46:55.834 [main] StepDef - email and password is entered
+[INFO ] 2024-02-17 20:46:55.950 [main] StepDef - login button clicked
+[WARN ] 2024-02-17 20:46:55.964 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-17 20:46:56.130 [main] StepDef - browser is closed

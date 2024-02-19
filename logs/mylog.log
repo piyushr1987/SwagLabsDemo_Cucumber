@@ -3,3 +3,188 @@
 [INFO ] 2024-02-17 20:46:55.950 [main] StepDef - login button clicked
 [WARN ] 2024-02-17 20:46:55.964 [main] StepDef - Test Passed:home page url is matched....
 [INFO ] 2024-02-17 20:46:56.130 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:34:53.600 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:34:53.821 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:34:53.930 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:34:53.941 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:34:54.119 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:34:56.549 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:34:56.734 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:34:56.824 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:34:56.838 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:34:56.977 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:34:59.851 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:35:00.079 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:35:00.147 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:35:00.160 [main] StepDef - Test Failed:home page url is not matched....
+[INFO ] 2024-02-19 16:35:03.506 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:35:03.726 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:35:03.790 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:35:03.799 [main] StepDef - Test Failed:home page url is not matched....
+[INFO ] 2024-02-19 16:37:14.931 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:37:15.124 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:37:15.206 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:37:15.217 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:37:15.366 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:37:18.282 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:37:18.487 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:37:18.563 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:37:18.574 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:37:18.767 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:37:20.759 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:37:20.929 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:37:21.042 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:37:21.062 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:37:21.209 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:37:23.065 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:37:23.225 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:37:23.293 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:37:23.302 [main] StepDef - Test Failed:home page url is not matched....
+[INFO ] 2024-02-19 16:46:31.721 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:46:31.936 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:46:32.041 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:46:32.063 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:46:32.389 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:46:34.265 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:46:34.473 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:46:34.589 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:46:34.609 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:46:34.796 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:46:38.070 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:46:38.326 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:46:38.410 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:46:38.425 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:46:38.609 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:46:41.225 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:46:41.480 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:46:41.529 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:46:41.542 [main] StepDef - Test Failed:home page url is not matched....
+[INFO ] 2024-02-19 16:59:48.327 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:59:48.569 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:59:48.653 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:59:48.674 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:59:48.955 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:59:51.427 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:59:51.639 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:59:51.748 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:59:51.757 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:59:51.980 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:59:54.134 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:59:54.336 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:59:54.432 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:59:54.441 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 16:59:54.632 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 16:59:56.748 [main] StepDef - url is opened
+[INFO ] 2024-02-19 16:59:56.930 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 16:59:56.991 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 16:59:57.002 [main] StepDef - Test Failed:home page url is not matched....
+[INFO ] 2024-02-19 17:00:00.359 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:00:00.576 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:00:00.652 [main] StepDef - login button clicked
+[INFO ] 2024-02-19 17:05:12.955 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:05:13.146 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:05:13.218 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:05:13.228 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:05:13.441 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:05:15.403 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:05:15.574 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:05:15.653 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:05:15.663 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:05:15.846 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:05:18.681 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:05:18.887 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:05:18.972 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:05:18.981 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:05:19.176 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:05:21.099 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:05:21.275 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:05:21.340 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:05:21.350 [main] StepDef - Test Failed:home page url is not matched....
+[INFO ] 2024-02-19 17:05:23.471 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:05:23.590 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:05:23.649 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:05:23.677 [main] StepDef - Test Passed:login page error message is matched....
+[INFO ] 2024-02-19 17:05:23.859 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:11:25.070 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:11:25.241 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:11:25.342 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:11:25.361 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:11:25.555 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:11:28.363 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:11:28.575 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:11:28.660 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:11:28.666 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:11:28.846 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:11:30.840 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:11:31.014 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:11:31.085 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:11:31.093 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:11:31.235 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:11:33.019 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:11:33.198 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:11:33.254 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:11:33.262 [main] StepDef - Test Failed:home page url is not matched....
+[INFO ] 2024-02-19 17:11:35.737 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:11:35.847 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:11:35.911 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:11:35.945 [main] StepDef - Test Passed:login page error message is matched....
+[INFO ] 2024-02-19 17:11:36.133 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:11:38.016 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:11:38.172 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:11:38.233 [main] StepDef - login button clicked
+[INFO ] 2024-02-19 17:14:14.297 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:14:14.479 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:14:14.560 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:14:14.571 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:14:14.829 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:14:16.680 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:14:16.843 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:14:16.928 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:14:16.938 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:14:17.200 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:14:19.060 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:14:19.227 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:14:19.305 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:14:19.318 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:14:19.506 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:14:22.332 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:14:22.532 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:14:22.592 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:14:22.601 [main] StepDef - Test Failed:home page url is not matched....
+[INFO ] 2024-02-19 17:14:24.939 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:14:25.056 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:14:25.109 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:14:25.135 [main] StepDef - Test Passed:login page error message is matched....
+[INFO ] 2024-02-19 17:14:25.319 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:14:28.013 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:14:28.198 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:14:28.256 [main] StepDef - login button clicked
+[INFO ] 2024-02-19 17:16:48.156 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:16:48.347 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:16:48.434 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:16:48.444 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:16:48.644 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:16:50.500 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:16:50.685 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:16:50.774 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:16:50.783 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:16:51.009 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:16:53.026 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:16:53.196 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:16:53.273 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:16:53.290 [main] StepDef - Test Passed:home page url is matched....
+[INFO ] 2024-02-19 17:16:53.470 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:16:55.348 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:16:55.520 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:16:55.583 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:16:55.594 [main] StepDef - Test Failed:home page url is not matched....
+[INFO ] 2024-02-19 17:16:57.800 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:16:57.915 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:16:57.971 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:16:57.999 [main] StepDef - Test Passed:login page error message is matched....
+[INFO ] 2024-02-19 17:16:58.186 [main] StepDef - browser is closed
+[INFO ] 2024-02-19 17:17:00.134 [main] StepDef - url is opened
+[INFO ] 2024-02-19 17:17:00.287 [main] StepDef - email and password is entered
+[INFO ] 2024-02-19 17:17:00.344 [main] StepDef - login button clicked
+[WARN ] 2024-02-19 17:17:00.366 [main] StepDef - Test Passed:login page error message is matched....
+[INFO ] 2024-02-19 17:17:00.547 [main] StepDef - browser is closed

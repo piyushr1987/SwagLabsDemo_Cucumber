@@ -22,6 +22,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.LoginPage;
+import pageObject.LogoutPage;
 import utilities.ReadConfig;
 
 public class StepDef extends BaseClass {
@@ -59,6 +60,7 @@ public class StepDef extends BaseClass {
 	@Given("User Launch Chrome browser")
 	public void user_launch_chrome_browser() {
 		login = new LoginPage(driver);
+		logout = new LogoutPage(driver);
 	}
 
 	@When("user open the URL {string}")
@@ -97,9 +99,10 @@ public class StepDef extends BaseClass {
 			Assert.assertTrue(false);
 		}
 	}
+
 	@Then("User should see the correct error message for password field as {string}")
 	public void user_should_see_the_correct_error_message_for_password_field_as(String actErrorMessage) {
-		
+
 		WebElement errorMessage = driver.findElement(By.xpath("//div[@class='login-box']/descendant::h3"));
 		String expErrorMessage = errorMessage.getText();
 		if (actErrorMessage.equalsIgnoreCase(expErrorMessage)) {
@@ -109,7 +112,20 @@ public class StepDef extends BaseClass {
 			log.warn("Test Failed:login page error message is not matched....");
 			Assert.assertTrue(false);
 		}
-	    
+
+	}
+
+	@Then("User should see the correct error message while entering wrong username as {string}")
+	public void user_should_see_the_correct_error_message_while_entering_wrong_username_as(String actErrorMessage) {
+		WebElement errorMessage = driver.findElement(By.xpath("//div[@class='login-box']/descendant::h3"));
+		String expErrorMessage = errorMessage.getText();
+		if (actErrorMessage.equalsIgnoreCase(expErrorMessage)) {
+			log.warn("Test Passed:login page error message is matched....");
+			Assert.assertTrue(true);
+		} else {
+			log.warn("Test Failed:login page error message is not matched....");
+			Assert.assertTrue(false);
+		}
 	}
 
 	@Then("User should navigate to Swag labs home page and URL should be {string}.")
@@ -121,6 +137,30 @@ public class StepDef extends BaseClass {
 			Assert.assertTrue(true);
 		} else {
 			log.warn("Test Failed:home page url is not matched....");
+			Assert.assertTrue(false);
+		}
+	}
+	////////////////////////// logout functionality///////////////////////////////
+
+	@When("user click on menu")
+	public void user_click_on_menu() {
+		logout.clickOnMenu();
+	}
+
+	@When("click on logout")
+	public void click_on_logout() {
+		logout.clickOnLogout();
+	}
+
+	@Then("User should navigate to Swag labs login page and company name should be {string}")
+	public void user_should_navigate_to_swag_labs_login_page_and_company_name_should_be(String actCompanyName) {
+		WebElement companyName = driver.findElement(By.xpath("//div[@id='root']//div[@class='login_logo']"));
+		String expCompanyName = companyName.getText();
+		if (actCompanyName.equalsIgnoreCase(expCompanyName)) {
+			log.warn("Test Passed:Company name is matched....");
+			Assert.assertTrue(true);
+		} else {
+			log.warn("Test Failed:Company name is not matched....");
 			Assert.assertTrue(false);
 		}
 	}

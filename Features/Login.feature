@@ -37,5 +37,13 @@ Feature: Login
     And click on login
     Then User should see the correct error message for password field as "Epic sadface: Password is required"
     And close the browser
+    
+    Scenario: Display login error messages
+    Given User Launch Chrome browser 
+    When user open the URL "https://www.saucedemo.com/"
+    And user enter the username as "standard_user123" and password as "secret_sauce"
+    And click on login
+    Then User should see the correct error message while entering wrong username as "Epic sadface: Username and password do not match any user in this service"
+    And close the browser
 
  

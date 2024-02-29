@@ -20,9 +20,17 @@ public class ProductPage {
 	@FindBy(xpath = "//div[@class='inventory_list']/div[@class='inventory_item']")
 	List<WebElement> inventoryItems;
 
+	@FindBy(xpath = "//div[@class='inventory_item_name ']")
+	List<WebElement> productLabels;
+
 	public List<WebElement> InventoryItem() {
 
 		return inventoryItems;
+	}
+	
+	public List<WebElement> allProducts() {
+
+		return productLabels;
 	}
 
 }

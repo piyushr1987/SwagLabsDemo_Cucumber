@@ -14,6 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import io.cucumber.java.After;
@@ -240,6 +241,34 @@ public class StepDef extends BaseClass {
 				}
 			}
 		}
+	}
+
+	@Then("User should see the ZA sorted products")
+	public void user_should_see_the_za_sorted_products() {
+		List<WebElement> allProducts = driver.findElements(By.xpath("//div[@class='inventory_item_name ']"));
+		for (WebElement productNames : allProducts) {
+			System.out.println(productNames.getText());
+		}
+
+		WebElement drpNames = driver.findElement(By.xpath("//select[@class='product_sort_container']"));
+
+		Select sel = new Select(drpNames);
+		sel.selectByValue("za");
+
+		List<WebElement> allProductsAfterSort = driver.findElements(By.xpath("//div[@class='inventory_item_name ']"));
+
+		for (WebElement sortProductNames : allProductsAfterSort) {
+			System.out.println("After sorting " + sortProductNames.getText());
+		}
+		if (allProducts.equals(allProductsAfterSort)) {
+			log.warn("Test Passed:product is sorted as per the selection....");
+			Assert.assertTrue(true);
+		} else {
+			log.warn("Test Failed:product is not sorted as per the selection....");
+			Assert.assertTrue(false);
+
+		}
+
 	}
 
 	@After()

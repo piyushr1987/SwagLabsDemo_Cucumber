@@ -9,11 +9,15 @@ Background: steps common for all scenerios
     
     Then User should able to see product title label as "Products"
     
-  Scenario: Check whether product sort option is displayed
+ Scenario: Check whether product sort option is displayed
     
    Then User should able to see product sort option
    
-   Scenario: Check whether inventory items are displayed correctly
+ Scenario: Check whether inventory items are displayed correctly
     
    Then User should able to see all inventory items correctly
+   
+ Scenario: Check whether product sort option ZA is working correctly
+    
+   Then User should see the ZA sorted products
    

@@ -442,3 +442,46 @@
 [INFO ] 2024-02-26 17:59:43.962 [main] StepDef - url is opened
 [INFO ] 2024-02-26 17:59:44.130 [main] StepDef - email and password is entered
 [INFO ] 2024-02-26 17:59:44.220 [main] StepDef - login button clicked
+[INFO ] 2024-02-29 16:30:00.929 [main] StepDef - url is opened
+[INFO ] 2024-02-29 16:30:01.133 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 16:30:01.205 [main] StepDef - login button clicked
+[WARN ] 2024-02-29 16:30:01.238 [main] StepDef - Test Passed:product label is matched....
+[INFO ] 2024-02-29 16:30:04.019 [main] StepDef - url is opened
+[INFO ] 2024-02-29 16:30:04.197 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 16:30:04.273 [main] StepDef - login button clicked
+[WARN ] 2024-02-29 16:30:04.335 [main] StepDef - Test Passed:product sort option is displayed....
+[INFO ] 2024-02-29 16:30:07.021 [main] StepDef - url is opened
+[INFO ] 2024-02-29 16:30:07.218 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 16:30:07.294 [main] StepDef - login button clicked
+[INFO ] 2024-02-29 16:30:10.409 [main] StepDef - url is opened
+[INFO ] 2024-02-29 16:30:10.584 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 16:30:10.659 [main] StepDef - login button clicked
+[INFO ] 2024-02-29 16:45:33.402 [main] StepDef - url is opened
+[INFO ] 2024-02-29 16:45:33.725 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 16:45:33.820 [main] StepDef - login button clicked
+[WARN ] 2024-02-29 16:45:33.869 [main] StepDef - Test Passed:product label is matched....
+[INFO ] 2024-02-29 16:45:35.980 [main] StepDef - url is opened
+[INFO ] 2024-02-29 16:45:36.163 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 16:45:36.251 [main] StepDef - login button clicked
+[WARN ] 2024-02-29 16:45:36.353 [main] StepDef - Test Passed:product sort option is displayed....
+[INFO ] 2024-02-29 16:45:38.369 [main] StepDef - url is opened
+[INFO ] 2024-02-29 16:45:38.531 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 16:45:38.612 [main] StepDef - login button clicked
+[INFO ] 2024-02-29 16:45:40.861 [main] StepDef - url is opened
+[INFO ] 2024-02-29 16:45:41.050 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 16:45:41.131 [main] StepDef - login button clicked
+[INFO ] 2024-02-29 18:10:34.787 [main] StepDef - url is opened
+[INFO ] 2024-02-29 18:10:35.062 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 18:10:35.174 [main] StepDef - login button clicked
+[WARN ] 2024-02-29 18:10:35.230 [main] StepDef - Test Passed:product label is matched....
+[INFO ] 2024-02-29 18:10:37.637 [main] StepDef - url is opened
+[INFO ] 2024-02-29 18:10:37.821 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 18:10:37.947 [main] StepDef - login button clicked
+[WARN ] 2024-02-29 18:10:38.020 [main] StepDef - Test Passed:product sort option is displayed....
+[INFO ] 2024-02-29 18:10:40.451 [main] StepDef - url is opened
+[INFO ] 2024-02-29 18:10:40.664 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 18:10:40.798 [main] StepDef - login button clicked
+[INFO ] 2024-02-29 18:10:43.767 [main] StepDef - url is opened
+[INFO ] 2024-02-29 18:10:43.963 [main] StepDef - email and password is entered
+[INFO ] 2024-02-29 18:10:44.083 [main] StepDef - login button clicked
+[WARN ] 2024-02-29 18:10:44.374 [main] StepDef - Test Failed:product is not sorted as per the selection....

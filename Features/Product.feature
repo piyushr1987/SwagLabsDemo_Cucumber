@@ -21,3 +21,15 @@ Background: steps common for all scenerios
     
    Then User should see the ZA sorted products
    
+Scenario: Check whether product sort option low to high is working correctly
+    
+   Then User should see the low to high sorted products
+   
+Scenario: Check whether product sort option high to low is working correctly
+    
+   Then User should see the high to low sorted products
+   
+ Scenario: Check whether product images are displayed correctly
+    
+   Then User should see the correct products images
+   

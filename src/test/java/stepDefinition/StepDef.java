@@ -23,6 +23,7 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageObject.FooterPage;
 import pageObject.LoginPage;
 import pageObject.LogoutPage;
 import pageObject.ProductPage;
@@ -65,6 +66,7 @@ public class StepDef extends BaseClass {
 		login = new LoginPage(driver);
 		logout = new LogoutPage(driver);
 		product = new ProductPage(driver);
+		footer = new FooterPage(driver);
 	}
 
 	@When("user open the URL {string}")
@@ -269,6 +271,102 @@ public class StepDef extends BaseClass {
 
 		}
 
+	}
+
+	@Then("User should see the low to high sorted products")
+	public void user_should_see_the_low_to_high_sorted_products() {
+		List<WebElement> allProductsPrice = driver.findElements(By.xpath("//div[@class='inventory_item_price']"));
+		for (WebElement productPrice : allProductsPrice) {
+			System.out.println(productPrice.getText());
+		}
+
+		WebElement drpNames = driver.findElement(By.xpath("//select[@class='product_sort_container']"));
+
+		Select sel = new Select(drpNames);
+		sel.selectByValue("lohi");
+
+		List<WebElement> allProductsPricesAfterSort = driver
+				.findElements(By.xpath("//div[@class='inventory_item_name ']"));
+
+		for (WebElement sortProductPrices : allProductsPricesAfterSort) {
+			System.out.println("After sorting " + sortProductPrices.getText());
+		}
+		if (allProductsPrice.equals(allProductsPricesAfterSort)) {
+			log.warn("Test Passed:product price is sorted as per the selection....");
+			Assert.assertTrue(true);
+		} else {
+			log.warn("Test Failed:product price is not sorted as per the selection....");
+			Assert.assertTrue(false);
+
+		}
+
+	}
+
+	@Then("User should see the high to low sorted products")
+	public void user_should_see_the_high_to_low_sorted_products() {
+
+		List<WebElement> allProductsPrice = driver.findElements(By.xpath("//div[@class='inventory_item_price']"));
+		for (WebElement productPrice : allProductsPrice) {
+			System.out.println(productPrice.getText());
+		}
+
+		WebElement drpNames = driver.findElement(By.xpath("//select[@class='product_sort_container']"));
+
+		Select sel = new Select(drpNames);
+		sel.selectByValue("hilo");
+
+		List<WebElement> allProductsPricesAfterSort = driver
+				.findElements(By.xpath("//div[@class='inventory_item_name ']"));
+
+		for (WebElement sortProductPrices : allProductsPricesAfterSort) {
+			System.out.println("After sorting " + sortProductPrices.getText());
+		}
+		if (allProductsPrice.equals(allProductsPricesAfterSort)) {
+			log.warn("Test Passed:product price is sorted as per the selection....");
+			Assert.assertTrue(true);
+		} else {
+			log.warn("Test Failed:product price is not sorted as per the selection....");
+			Assert.assertTrue(false);
+
+		}
+
+	}
+
+	@Then("User should see the correct products images")
+	public void user_should_see_the_correct_products_images() {
+
+		String[] imgSrcNames = { "sauce-backpack", "bike-light", "bolt-shirt", "sauce-pullover", "red-onesie",
+				"red-tatt" };
+
+		int j = 1;
+		for (int i = 1; i <= 12; i += 2) {
+			String imgsrc = product.ItemImg().get(i).getAttribute("src").toString();
+
+			if (imgsrc.contains(imgSrcNames[i - j])) {
+				System.out.println("Image is correct : " + imgSrcNames[i - j]);
+			}
+
+			else {
+				System.out.println("Image source is wrong : " + imgsrc);
+			}
+			j++;
+		}
+
+	}
+
+	////////////////////// footer functionality//////////////////////////
+
+	@Then("User should see the footer")
+	public void user_should_see_the_footer() {
+
+		if (footer.validateFooterSection()) {
+			log.warn("Test Passed:footer section is displayed....");
+			Assert.assertTrue(true);
+		} else {
+			log.warn("Test Failed:footer section is not displayed....");
+			Assert.assertTrue(false);
+
+		}
 	}
 
 	@After()

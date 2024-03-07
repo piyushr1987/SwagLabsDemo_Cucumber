@@ -3,6 +3,7 @@ package stepDefinition;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
@@ -367,6 +368,43 @@ public class StepDef extends BaseClass {
 			Assert.assertTrue(false);
 
 		}
+	}
+
+	@Then("User should see the footer text as {string}")
+	public void user_should_see_the_footer_text_as(String actText) {
+		WebElement footerText = driver.findElement(By.xpath("//footer[@class='footer']/child::div"));
+		String expText = footerText.getText();
+		if (actText.equalsIgnoreCase(expText)) {
+			log.warn("Test Passed:footer text is matched....");
+			Assert.assertTrue(true);
+		} else {
+			log.warn("Test Failed:footer text is not matched....");
+			Assert.assertTrue(false);
+		}
+	}
+
+	@When("click on twitter")
+	public void click_on_twitter() throws InterruptedException {
+
+		footer.clickOnTwitter();
+		Thread.sleep(3000);
+
+	}
+
+	@Then("User should navigate to swag labs twitter page")
+	public void user_should_navigate_to_swag_labs_twitter_page() {
+
+		ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
+		driver.switchTo().window(tabs2.get(0));
+		driver.switchTo().window(tabs2.get(1));
+		String twitterpageName = footer.TwitterPage().getAttribute("innerText");
+		if (twitterpageName.equals("Sauce Labs")) {
+
+			System.out.println("Navigated to twitter page");
+		} else {
+			System.out.println("Not Navigated to twitter page");
+		}
+
 	}
 
 	@After()

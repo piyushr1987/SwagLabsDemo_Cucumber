@@ -15,3 +15,11 @@ Background: steps common for all scenerios
   And click on twitter
   Then User should navigate to swag labs twitter page
   
+ Scenario: Check whether Facebook is working correctly
+  And click on facebook
+  Then User should navigate to swag labs Facebook page
+  
+ Scenario: Check whether LinkedIn is working correctly
+  And click on linkedin
+  Then User should navigate to swag labs LinkedIn page
+  

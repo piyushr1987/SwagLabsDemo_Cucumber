@@ -711,3 +711,100 @@
 [INFO ] 2024-03-07 18:19:58.964 [main] StepDef - url is opened
 [INFO ] 2024-03-07 18:19:59.208 [main] StepDef - email and password is entered
 [INFO ] 2024-03-07 18:19:59.283 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 16:44:31.266 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:44:31.520 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:44:31.600 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:44:31.655 [main] StepDef - Test Passed:footer section is displayed....
+[INFO ] 2024-03-08 16:44:34.618 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:44:34.798 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:44:34.868 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:44:34.902 [main] StepDef - Test Passed:footer text is matched....
+[INFO ] 2024-03-08 16:44:37.796 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:44:37.967 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:44:38.050 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 16:44:46.909 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:44:47.097 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:44:47.169 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 16:47:20.896 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:47:21.073 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:47:21.155 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:47:21.249 [main] StepDef - Test Passed:footer section is displayed....
+[INFO ] 2024-03-08 16:47:23.808 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:47:23.999 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:47:24.091 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:47:24.143 [main] StepDef - Test Passed:footer text is matched....
+[INFO ] 2024-03-08 16:47:26.516 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:47:26.692 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:47:26.825 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 16:47:34.208 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:47:34.367 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:47:34.453 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 16:49:44.718 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:49:44.963 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:49:45.046 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:49:45.094 [main] StepDef - Test Passed:footer section is displayed....
+[INFO ] 2024-03-08 16:49:52.237 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:49:52.397 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:49:52.485 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:49:52.520 [main] StepDef - Test Passed:footer text is matched....
+[INFO ] 2024-03-08 16:49:56.022 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:49:56.302 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:49:56.372 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 16:50:07.135 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:50:07.306 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:50:07.426 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 16:53:10.036 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:53:10.219 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:53:10.296 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:53:10.348 [main] StepDef - Test Passed:footer section is displayed....
+[INFO ] 2024-03-08 16:53:12.738 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:53:12.911 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:53:13.021 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:53:13.079 [main] StepDef - Test Passed:footer text is matched....
+[INFO ] 2024-03-08 16:53:15.364 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:53:15.539 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:53:15.616 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 16:53:23.099 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:53:23.278 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:53:23.368 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 16:59:53.208 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:59:53.509 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:59:53.585 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:59:53.627 [main] StepDef - Test Passed:footer section is displayed....
+[INFO ] 2024-03-08 16:59:56.518 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:59:56.714 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:59:56.792 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 16:59:56.829 [main] StepDef - Test Passed:footer text is matched....
+[INFO ] 2024-03-08 16:59:59.253 [main] StepDef - url is opened
+[INFO ] 2024-03-08 16:59:59.445 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 16:59:59.527 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 17:00:13.692 [main] StepDef - url is opened
+[INFO ] 2024-03-08 17:00:13.902 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 17:00:13.977 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 17:00:55.307 [main] StepDef - url is opened
+[INFO ] 2024-03-08 17:00:55.535 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 17:00:55.648 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 17:05:42.980 [main] StepDef - url is opened
+[INFO ] 2024-03-08 17:05:43.177 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 17:05:43.258 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 17:05:43.327 [main] StepDef - Test Passed:footer section is displayed....
+[INFO ] 2024-03-08 17:05:46.173 [main] StepDef - url is opened
+[INFO ] 2024-03-08 17:05:46.339 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 17:05:46.424 [main] StepDef - login button clicked
+[WARN ] 2024-03-08 17:05:46.466 [main] StepDef - Test Passed:footer text is matched....
+[INFO ] 2024-03-08 17:05:49.213 [main] StepDef - url is opened
+[INFO ] 2024-03-08 17:05:49.396 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 17:05:49.478 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 17:05:57.343 [main] StepDef - url is opened
+[INFO ] 2024-03-08 17:05:57.529 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 17:05:57.607 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 17:06:03.970 [main] StepDef - url is opened
+[INFO ] 2024-03-08 17:06:04.159 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 17:06:04.237 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 17:24:39.529 [main] StepDef - url is opened
+[INFO ] 2024-03-08 17:24:39.715 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 17:24:39.804 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 18:11:15.198 [main] StepDef - url is opened
+[INFO ] 2024-03-08 18:11:15.398 [main] StepDef - email and password is entered
+[INFO ] 2024-03-08 18:11:15.494 [main] StepDef - login button clicked
+[INFO ] 2024-03-08 18:11:16.122 [main] StepDef - browser is closed

@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-		features = ".//Features/Footer.feature", 
+		features = ".//Features/Cart.feature", 
 		glue = "stepDefinition", 
 		dryRun = false, 
 		monochrome = true,

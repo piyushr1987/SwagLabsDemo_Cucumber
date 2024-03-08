@@ -24,6 +24,7 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageObject.AddToCartPage;
 import pageObject.FooterPage;
 import pageObject.LoginPage;
 import pageObject.LogoutPage;
@@ -68,6 +69,7 @@ public class StepDef extends BaseClass {
 		logout = new LogoutPage(driver);
 		product = new ProductPage(driver);
 		footer = new FooterPage(driver);
+		add = new AddToCartPage(driver);
 	}
 
 	@When("user open the URL {string}")
@@ -405,6 +407,79 @@ public class StepDef extends BaseClass {
 			System.out.println("Not Navigated to twitter page");
 		}
 
+	}
+
+	@When("click on facebook")
+	public void click_on_facebook() {
+		footer.clickOnFacebook();
+
+	}
+
+	@Then("User should navigate to swag labs Facebook page")
+	public void user_should_navigate_to_swag_labs_facebook_page() {
+
+		ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
+		driver.switchTo().window(tabs2.get(0));
+		driver.switchTo().window(tabs2.get(1));
+
+		WebElement closeButton = driver.findElement(By.xpath("//div[@role='dialog']//i"));
+		closeButton.click();
+
+		String fbpageName = footer.FacebookPage().getAttribute("innerText");
+
+		if (fbpageName.equals("Sauce Labs")) {
+
+			System.out.println("Navigated to facebook page");
+		}
+
+		else {
+
+			System.out.println("Not Navigated to facebook page");
+		}
+
+	}
+
+	@When("click on linkedin")
+	public void click_on_linkedin() {
+
+		footer.clickOnLinkedin();
+
+	}
+
+	@Then("User should navigate to swag labs LinkedIn page")
+	public void user_should_navigate_to_swag_labs_linked_in_page() {
+		ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
+		driver.switchTo().window(tabs2.get(0));
+		driver.switchTo().window(tabs2.get(1));
+
+		String linkedInPageName = footer.LinkedinPage().getAttribute("innerText");
+
+		if (linkedInPageName.equals("Sauce Labs")) {
+
+			System.out.println("Navigated to linkedIn page");
+		}
+
+		else {
+
+			System.out.println("Not Navigated to linkedIn page");
+		}
+	}
+
+	///////////////////////// Add To Cart/////////////////////////////////
+
+	@When("click on add to cart")
+	public void click_on_add_to_cart() {
+		add.clickOnAddToCart();
+	}
+
+	@Then("User should see the updated cart badge")
+	public void user_should_see_the_updated_cart_badge() throws IOException {
+
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		File Dest = new File(
+				"C:\\Users\\piyush ramteke\\Piyush-Workspace\\SwagLabs_Cucumber\\Screenshots\\add_to_cart.png");
+		FileUtils.copyFile(src, Dest);
 	}
 
 	@After()

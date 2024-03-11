@@ -482,6 +482,64 @@ public class StepDef extends BaseClass {
 		FileUtils.copyFile(src, Dest);
 	}
 
+	@Then("User should see the remove buttons")
+	public void user_should_see_the_remove_buttons() throws IOException {
+
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		File Dest = new File("C:\\Users\\piyush ramteke\\Piyush-Workspace\\SwagLabs_Cucumber\\Screenshots\\remove.png");
+		FileUtils.copyFile(src, Dest);
+
+	}
+
+	@When("click on product")
+	public void click_on_product() {
+		add.clickOnSauceLabs();
+	}
+
+	@Then("User should see the full product view")
+	public void user_should_see_the_full_product_view() throws IOException {
+
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		File Dest = new File(
+				"C:\\Users\\piyush ramteke\\Piyush-Workspace\\SwagLabs_Cucumber\\Screenshots\\fullproductview.png");
+		FileUtils.copyFile(src, Dest);
+
+	}
+
+	@When("click on cart")
+	public void click_on_cart() {
+		add.clickOnCart();
+
+	}
+
+	@Then("User should see the cart items added to cart")
+	public void user_should_see_the_cart_items_added_to_cart() throws IOException {
+
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		File Dest = new File("C:\\Users\\piyush ramteke\\Piyush-Workspace\\SwagLabs_Cucumber\\Screenshots\\cart.png");
+		FileUtils.copyFile(src, Dest);
+
+	}
+
+	@When("click on remove")
+	public void click_on_remove() {
+		add.clickOnRemove();
+	}
+
+	@Then("User should see the cart without removed item")
+	public void user_should_see_the_cart_without_removed_item() throws IOException {
+
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		File Dest = new File(
+				"C:\\Users\\piyush ramteke\\Piyush-Workspace\\SwagLabs_Cucumber\\Screenshots\\cartafterremove.png");
+		FileUtils.copyFile(src, Dest);
+
+	}
+
 	@After()
 	public void tearDown(Scenario sc) {
 		System.out.println("Tear down method is executed");

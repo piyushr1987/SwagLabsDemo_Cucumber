@@ -27,6 +27,15 @@ public class AddToCartPage {
 	@FindBy(xpath = "//button[@id='remove-sauce-labs-backpack']")
 	private WebElement btnRemove;
 
+	@FindBy(xpath = "//button[@id='back-to-products']")
+	private WebElement btnBactToProducts;
+
+	@FindBy(xpath = "//button[@id='continue-shopping']")
+	private WebElement btnContinueShopping;
+
+	@FindBy(id = "checkout")
+	private WebElement btnCheckout;
+
 	public void clickOnAddToCart() {
 		btnAddToCart.click();
 	}
@@ -41,6 +50,18 @@ public class AddToCartPage {
 
 	public void clickOnRemove() {
 		btnRemove.click();
+	}
+
+	public void clickOnBackToProducts() {
+		btnBactToProducts.click();
+	}
+
+	public void clickOnContinueShopping() {
+		btnContinueShopping.click();
+	}
+
+	public void clickOnCheckout() {
+		btnCheckout.click();
 	}
 
 }

@@ -540,6 +540,51 @@ public class StepDef extends BaseClass {
 
 	}
 
+	@When("click on Back To Products")
+	public void click_on_back_to_products() {
+
+		add.clickOnBackToProducts();
+
+	}
+
+	@Then("User should see the product page and URL should be {string}")
+	public void user_should_see_the_product_page_and_url_should_be(String actURL) {
+
+		String expURL = driver.getCurrentUrl();
+		if (actURL.equalsIgnoreCase(expURL)) {
+			log.warn("Test Passed:product page URL is matched....");
+			Assert.assertTrue(true);
+		} else {
+			log.warn("Test Failed:product page URL is not matched....");
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@When("click on continue shopping")
+	public void click_on_continue_shopping() {
+		add.clickOnContinueShopping();
+	}
+
+	@When("click on checkout")
+	public void click_on_checkout() {
+		add.clickOnCheckout();
+	}
+
+	@Then("User should see the checkout info page and URL should be {string}")
+	public void user_should_see_the_checkout_info_page_and_url_should_be(String actURL) {
+
+		String expURL = driver.getCurrentUrl();
+		if (actURL.equalsIgnoreCase(expURL)) {
+			log.warn("Test Passed:Navigated successfully to checkout page ....");
+			Assert.assertTrue(true);
+		} else {
+			log.warn("Test Failed:checkout page is not visible....");
+			Assert.assertTrue(false);
+		}
+
+	}
+
 	@After()
 	public void tearDown(Scenario sc) {
 		System.out.println("Tear down method is executed");
